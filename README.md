@@ -52,7 +52,14 @@ Start the server
   node index.js
 ```
 
+for frontend 
 
+```bash
+  cd frontend
+```
+```bash
+  npm run dev
+```
 ## Running Tests
 
 To run tests, run the following command
@@ -122,5 +129,4 @@ To run tests, run the following command
 | Header | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `Authorization`      | `string` | **Required**. token for authentication |
-
 
