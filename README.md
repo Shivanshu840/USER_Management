@@ -124,7 +124,3 @@ To run tests, run the following command
 | `Authorization`      | `string` | **Required**. token for authentication |
 
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
