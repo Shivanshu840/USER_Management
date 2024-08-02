@@ -57,6 +57,7 @@ for frontend
 ```bash
   cd frontend
 ```
+Start the server
 ```bash
   npm run dev
 ```
