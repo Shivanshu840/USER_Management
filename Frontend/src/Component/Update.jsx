@@ -21,8 +21,8 @@ export default function UpdateProfile() {
             }
 
             if (updatePassword) {
-                // Verify the old password if updating password
-                const verifyResponse = await axios.post('http://localhost:3000/userprofile/verify-password', {
+                
+                const verifyResponse = await axios.post('https://user-management-yru9.onrender.com/userprofile/verify-password', {
                     oldPassword
                 }, {
                     headers: {
@@ -36,8 +36,8 @@ export default function UpdateProfile() {
                 }
             }
 
-            // Proceed with updating the profile
-            const response = await axios.put('http://localhost:3000/userprofile/profile-update', {
+          
+            const response = await axios.put('https://user-management-yru9.onrender.com/userprofile/profile-update', {
                 username,
                 useremail,
                 password: updatePassword ? newPassword : undefined

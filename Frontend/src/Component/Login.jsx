@@ -15,7 +15,7 @@ export default function LoginPage({ setIsLoggedIn }) {
         e.preventDefault();
 
         try {
-            const response = await axios.post("http://localhost:3000/register/login", {
+            const response = await axios.post("https://user-management-yru9.onrender.com/register/login", {
                 useremail,
                 password
             });

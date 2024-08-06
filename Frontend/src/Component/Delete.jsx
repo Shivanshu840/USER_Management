@@ -19,7 +19,7 @@ export default function DeleteProfile() {
                 throw new Error('No token found');
             }
 
-            await axios.delete('http://localhost:3000/userprofile/delete-profile', {
+            await axios.delete('https://user-management-yru9.onrender.com/userprofile/delete-profile', {
                 headers: {
                     'Authorization': token,
                 }

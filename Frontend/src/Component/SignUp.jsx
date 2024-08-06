@@ -16,7 +16,7 @@ export default function RegisterPage() {
         e.preventDefault(); 
 
         try {
-            const response = await axios.post("http://localhost:3000/register/signup", {
+            const response = await axios.post("https://user-management-yru9.onrender.com/register/signup", {
                 username,
                 useremail,
                 password

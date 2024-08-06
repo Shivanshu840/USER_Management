@@ -17,7 +17,7 @@ export default function UserProfile() {
                     throw new Error('First you have to log in');
                 }
 
-                const response = await axios.get('http://localhost:3000/userprofile/profile', {
+                const response = await axios.get('https://user-management-yru9.onrender.com/userprofile/profile', {
                     headers: {
                         'Authorization': token,
                     }
